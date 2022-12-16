@@ -1,0 +1,419 @@
+{
+  "HeaderInfo": {
+    "Index": {
+      "modification": "Change to other vessel"
+    }
+  },
+  "Documents": {
+    "Si": {
+      "alreadyEquipped": "booking arranged",
+      "orderByCabinet": "BL separated by container",
+      "splitTheBill": "Split BL",
+      "withdrawPressCabinet": "withdraw the splitting by container",
+      "onYourPage3": "The content on your page has been modified. Please save it before export dataing",
+      "pleaseSaveItFirst3": "Please save before export dataing",
+      "totalAll": "Total pieces all h documents",
+      "totalAll2": "Total pieces h documents of all sub documents"
+    },
+    "ISF": {
+      "singleInformation": "HBL information",
+      "underSingleInformation": "HBL information-next",
+      "singleInformation2": "HBL information-previous",
+      "toBeSent": "pending to be sent",
+      "packingAddress": "Stuffing address"
+    },
+    "MergeOrderButton": {
+      "hasItBeenRemoved": "Split BL",
+      "fieldVerification": "in yard verification consistent",
+      "toBeCombinedAndListedSeparately": "BL pending for combination"
+    },
+    "DocumentsTipModal": {
+      "fieldName": "in yard name"
+    },
+    "CtnListInfo": {
+      "export": "export data"
+    }
+  },
+  "TeamWorkButton": {
+    "TeamWorkHistoryTable": {
+      "operators": "Company of user"
+    }
+  },
+  "Truck": {
+    "TruckPlan": {
+      "createANewDoor2": "create a new destination",
+      "multipoint": "multiple destination",
+      "fleetLatest": "Latest box / seal time provided by the Trucking vendor",
+      "theTeamHasPickedUp": "trucking vendor received the booking",
+      "suitcaseD": "pending for equipment pick up QR code",
+      "suitcaseLocation": "pending for equipment pick up location",
+      "packingRemarks": "Remarks of Container Stuffing",
+      "packingTime": "time of cargo stuffing",
+      "packingInformation": "information for stuffing",
+      "packingEstimate": "Estimated cargo weight",
+      "packingEstimate2": "Estimated cargo weight (kgs)",
+      "hairBodyAssembly": "Total pieces pieces / wool / body: {val1} pieces {val2} kgs {val3} CBM"
+    },
+    "BnMultiTruckpaAreaDialog": {
+      "unpacking": "unstuffing",
+      "packing": "Container Stuffing"
+    },
+    "Constants": {
+      "outsideTheFactory": "Overweight outside of yard the factory",
+      "outsideTheFactory2": "Empty weight outside of yard the factory"
+    },
+    "Model": {
+      "notificationFailed2": "Notification failed, the position of [Trucking vendor dispatcher] is required!"
+    },
+    "TruckBulkCargoPlanEdit": {
+      "fleetPhone": "phone number of trucking vendor",
+      "teamContact": "PIC of trucking vendor"
+    },
+    "TruckBulkCargoPlan": {
+      "teamContact": "PIC of trucking vendor number",
+      "teamContact2": "PIC of trucking vendor"
+    },
+    "BatchUpdatePackinggate": {
+      "packing": "Container Stuffing"
+    }
+  },
+  "WorkFlowInfo": {
+    "Index": {
+      "single2": "HBL",
+      "single": "MBL"
+    }
+  },
+  "File": {
+    "BnFileBatchAdd": {
+      "single": "HBL",
+      "single2": "MBL"
+    },
+    "EFile": {
+      "singleAgency": "MBL of agent"
+    },
+    "BnFileHistoryList": {
+      "total": "Total pieces {val1}"
+    },
+    "BnFileList": {
+      "total": "Total pieces {val1}"
+    },
+    "BnFileTrackList": {
+      "total": "Total pieces {val1}"
+    }
+  },
+  "Vgm": {
+    "CompareHBLTotalModal": {
+      "totalOfDocuments": "Total pieces of H documents"
+    },
+    "SplitSubOrderBtn": {
+      "orderByCabinet": "BL separated by container",
+      "subOrderNo": "Sub-BL No"
+    },
+    "BnContainerEditList": {
+      "theContainer": "The container has been associated with the [drag container] / [warehousing] / [Custom declaration sheet] / [Si] / [manifest] plan. Are you sure to delete it?",
+      "totalGoods2": "Total pieces cargo information"
+    },
+    "Container": {
+      "unpackingLocation": "place of unstuffing",
+      "packingDate": "date of cargo stuffing"
+    },
+    "BnContainerList": {
+      "selfProvidedBox": "SOC"
+    }
+  },
+  "Modify_order": {
+    "ModifyRenderItem": {
+      "singleParty": "the form of MBL",
+      "packingContact": "contact person of cargo stuffing telephone",
+      "packingContact2": "contact person of cargo stuffing"
+    },
+    "ReadonlyModifyItem": {
+      "singleParty": "the form of MBL",
+      "packingContact": "contact person of cargo stuffing"
+    },
+    "ModifyOrderDetail": {
+      "specialOffer": "Special quotation",
+      "specialOffer3": "Special quotation type",
+      "pickedUpCase": "pending for equipment pick up carried"
+    },
+    "ModifyOrderModal": {
+      "pickedUpCase": "pending for equipment pick up carried"
+    }
+  },
+  "Fee_info": {
+    "FunctionButton": {
+      "services2": "service provided by POL",
+      "sendOut": "submit SA",
+      "byCompany": "SUM by company",
+      "statisticsByTicket": "Sum by BL"
+    },
+    "Rule": {
+      "subSingleLocking": "Lock Sub-BL"
+    },
+    "FeeHeadInfo": {
+      "totalGrossProfit": "Total pieces gross profit"
+    },
+    "TableComponents": {
+      "totalOriginal": "Total pieces: original currency:"
+    }
+  },
+  "Logistics_tracking": {
+    "Container_dynamics": {
+      "toBeConfirmed": "VGM Pending for confirmation",
+      "customsDeclaration": "Custom declaration sheet time",
+      "vesselNameAndVoyage": "vessel / voyage",
+      "whenWeGetToTheFactory": "on the way to factory",
+      "caseToBePickedUp": "pending for equipment pick up",
+      "waitingPort": "in t/s port waiting for connecting vessel",
+      "shipmentTime": "on board date:",
+      "timeOfShipment": "on board date",
+      "packingCompleted": "completion time of stuffing:",
+      "startOfPacking": "commence time of stuffing",
+      "packingComplete": "completion time of stuffing"
+    },
+    "Logistics_info": {
+      "caseToBePickedUp": "pending for equipment pick up"
+    }
+  },
+  "AddFeeItemModal": {
+    "Index": {
+      "byWorkOrder": "by working sheet",
+      "selfSolicitation": "Sales cargo-non nomination"
+    }
+  },
+  "Manifest": {
+    "ManifestDetail": {
+      "packagingUnit": "unit of packing",
+      "totalTicketStatistics": "Total pieces ticket statistics-",
+      "totalGrossWeight": "Total pieces gross weight"
+    },
+    "PreManifest": {
+      "packingDetails": "Container Stuffing details",
+      "packingDetails2": "Container Stuffing details container",
+      "containerLetter": "Total pieces contents of container information",
+      "containerLetter2": "Total pieces container information",
+      "cargoInformation": "Total pieces content of cargo information",
+      "cargoInformation3": "Total pieces cargo information"
+    }
+  },
+  "Legacy": {
+    "BasicDataConstant": {
+      "letterOfGuarantee": "LOI",
+      "toBeDeclared": "pending for Customs declaration",
+      "goodsToBeReleased": "pending to be released",
+      "checkContainer": "Verify whether the container number in the container list in the container tab has a value (when [booking] / [booking] / [towing container] is checked for the full container export data by sea)",
+      "verificationOperation": "Verify whether the container type and container volume of the operation details, so's container type and container volume are consistent (when [booking] / [booking] / [towing container] is checked for the full container export data by sea)",
+      "fclBySea2": "Marine FCL export data"
+    }
+  },
+  "output": {
+    "BasicDataConstant": {
+      "insurancePolicy": "insurance sheet",
+      "declarationForm": "Custom declaration sheet",
+      "customsDeclarationCommission": "Custom declaration sheet entrustment",
+      "packingRecord": "record of stuffing",
+      "packingCommission": "delegation letter of stuffing",
+      "packingList": "Container Stuffing list"
+    }
+  },
+  "Customs": {
+    "BnCustomEntrustedDetail": {
+      "declarationList": "Custom declaration sheet list",
+      "customsDeclarationDetails": "Custom declaration sheet details",
+      "declarationRemarks": "Custom declaration sheet remarks",
+      "customsDeclarationCommission": "Custom declaration sheet entrustment No",
+      "customsDeclarationCommission2": "Custom declaration sheet entrustment details",
+      "totalPrice": "Total pieces price"
+    },
+    "BnCustomList": {
+      "customsDeclarationCommission": "Custom declaration sheet entrustment No"
+    },
+    "BnCustomsEntrustedList": {
+      "customsDeclarationCommission": "Custom declaration sheet entrustment list",
+      "markNotCommissioned": "marked as not delegated",
+      "markFinished": "marked as complete",
+      "markCommissioned": "marked as delegated"
+    },
+    "Config": {
+      "packageType": "Container Stuffing type"
+    }
+  },
+  "Import": {
+    "Operate_record": {
+      "customsDeclarationAndReceipt": "Custom declaration sheet receipt time",
+      "pickUpTime": "pending for equipment pick up time"
+    }
+  },
+  "BookingFee": {
+    "offer": "quotation"
+  },
+  "BookingDetailForms": {
+    "BoxCommonFuncs": {
+      "onSite": "in yard",
+      "outside": "outside of yard"
+    },
+    "BoxSizeDetailDialog": {
+      "superHigh": "over high",
+      "superWide": "over width",
+      "superLong": "over length"
+    },
+    "ShipperAndConsignee": {
+      "deliveryMode": "the way of issuing BL"
+    },
+    "EfclScnList": {
+      "total": "Total pieces {val1}"
+    }
+  },
+  "constants": {
+    "CrmConstant": {
+      "fieldDelivery": "in yard delivery / collection",
+      "selfEmployment": "by local sales"
+    },
+    "BusinessTypes": {
+      "collectionAndPayment": "pay on behalf of client",
+      "airExport": "Air export data",
+      "exportBySea": "Ocean export data LCL",
+      "railwayTransportation2": "Railway transportation export data",
+      "landTransportation2": "Land transportation export data",
+      "exportBySea2": "Ocean export data FCL"
+    }
+  },
+  "FeeTemplateBtn": {
+    "FilterService": {
+      "fleet": "Trucking vendor",
+      "importAndExportStandard": "Import and export data identification",
+      "directCustomers": "Sales direct account"
+    }
+  },
+  "OprationButtons": {
+    "StopFinishButton": {
+      "withdrawalOperation": "the withdraw has been complete"
+    }
+  },
+  "CreateModal": {
+    "CellRenderer": {
+      "nameOfVessel": "vessel name"
+    },
+    "Index": {
+      "nameOfVessel": "vessel name"
+    }
+  },
+  "Bn_store": {
+    "Config": {
+      "vesselNameAndVoyage": "vessel / voyage",
+      "packagePlural": "Container Stuffing plural",
+      "oddNumberOfPackages": "Container Stuffing list",
+      "encasementRequirements": "requirement of stuffing ",
+      "latestArrival": "gate-in deadline"
+    }
+  },
+  "Yard_packing": {
+    "CommonInfo": {
+      "nameOfVessel": "vessel name"
+    }
+  },
+  "Export": {
+    "Booking_info": {
+      "shipNameCode": "vessel name code"
+    },
+    "Operate_record": {
+      "packingArea": "Stuffing area"
+    },
+    "Order_record": {
+      "totalAmount": "Total pieces amount"
+    }
+  },
+  "SoDetail": {
+    "Index": {
+      "nameAndVoyage": "vessel voyage"
+    }
+  },
+  "ParticipantInfo": {
+    "Constants": {
+      "toBeReserved": "pending for booking"
+    }
+  },
+  "NewReceiveRegisterComponent": {
+    "amountToBeWrittenOff": "pending for writing off",
+    "thisSelection": "Total pieces of this selection:"
+  },
+  "CommonBusinessServices": {
+    "Constants": {
+      "pendingFirstInstance": "pending for checking"
+    },
+    "BusinessMenuConstants": {
+      "documents": "Documentation"
+    }
+  },
+  "ModifyBusinessType": {
+    "Index": {
+      "overseasShipping": "Marine export data"
+    }
+  },
+  "finance_util": {
+    "AdSearchCondition": {
+      "notExported": "Not export dataed"
+    },
+    "BaseDataComponet": {
+      "exportBySea": "Marine export data"
+    }
+  },
+  "FunctionButton": {
+    "OutputButton": {
+      "selectedFees": "The selected expense has no water bill to export data",
+      "pleaseChooseOne": "Please select expenditure expense export data memo"
+    }
+  },
+  "PublicBKGListDialog": {
+    "Index": {
+      "loadingPort": "POL"
+    }
+  },
+  "ImportFromCopy": {
+    "Index": {
+      "packagingType": "Container Stuffing type cannot be entered in Chinese"
+    }
+  },
+  "RemarkInfo": {
+    "PageInfo": {
+      "packingMethod": "the method of cargo stuffing"
+    }
+  },
+  "BusinessDetailCommon": {
+    "Index": {
+      "totalVolume": "Total pieces volume",
+      "totalWeight": "Total pieces weight",
+      "total": "Total pieces "
+    }
+  },
+  "SoList": {
+    "PublicSoList": {
+      "ofPer": "Total pieces {val1} articles, 15 articles per page"
+    }
+  },
+  "LogTable": {
+    "Index": {
+      "total": "Total pieces {val1}"
+    }
+  },
+  "TruckFeeBtn": {
+    "TruckFee": {
+      "totalAmount": "Total pieces amount"
+    },
+    "Util": {
+      "totalPriceAndTax": "Total pieces price and tax"
+    }
+  },
+  "Bc": {
+    "Export": {
+      "totalVolume": "Total pieces volume (CBM):",
+      "totalGrossWeight": "Total pieces gross weight (kgs):",
+      "totalNumberOfPieces": "Total pieces pieces:"
+    }
+  },
+  "ShipModal": {
+    "Index": {
+      "preservation": "save"
+    }
+  }
+}

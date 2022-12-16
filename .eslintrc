@@ -1,0 +1,35 @@
+{
+  "extends": ["prettier"],
+  "globals": {
+    "location": "readonly",
+    "isChange": true
+  },
+  "plugins": ["jsdoc"],
+  "rules": {
+    "no-control-regex": "warn",
+    "no-useless-escape": "warn",
+    "jsdoc/require-jsdoc": [
+      "error",
+      {
+        "publicOnly": true,
+        "require": {
+          "FunctionExpression": true,
+          "FunctionDeclaration": true,
+          "ArrowFunctionExpression": true
+        }
+      }
+    ],
+    "valid-jsdoc": [
+      "error",
+      { "requireReturnType": false, "requireParamType": false }
+    ]
+  },
+  "overrides": [
+    {
+      "files": ["src/**/*.{tsx,jsx}"],
+      "rules": {
+        "jsdoc/require-jsdoc": "off"
+      }
+    }
+  ]
+}

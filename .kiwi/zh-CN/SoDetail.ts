@@ -1,0 +1,26 @@
+export default {
+  SoContainer: {
+    operationDetails: '操作详情内容',
+    coverToDetails: '覆盖至详情',
+    parsingContent: 'BKG解析内容',
+  },
+  Index: {
+    bookingPayment: '订舱-付款方式',
+    bookingTransportation: '订舱-运输条款',
+    lengthCannot: '长度不能大于120个字符',
+    contractCompany: '合约公司',
+    lengthCannot2: '长度不能大于30个字符',
+    cutOffTime: '截VGM时间',
+    theShipIsExpectedToSail: '预计开船时间',
+    cutOffTime2: '截单时间',
+    theBargeSailed: '驳船开船时间',
+    pleaseEnterTheNumber: '请输入数字,英文,中文符号',
+    shippingRoutes: '船司航线代码',
+    inlandTransit: '内陆中转方式',
+    booking: '订舱-DEL',
+    booking2: '订舱-POD',
+    bookingTransfer: '订舱-中转港',
+    booking3: '订舱-POL',
+    nameAndVoyage: '船名航次',
+  },
+};

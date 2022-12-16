@@ -1,0 +1,17 @@
+export default {
+  FMS_CONTEXT: '/gm2-fms-rest/rest',
+  FMS_BASE_CONTEXT: '/gm2-base-rest/rest',
+  FMS_CRM_CONTEXT: '/gm2-crm-rest/rest',
+  DATA_EXTRA_FRONT: '/gm2-fms-dataextra-front',
+  FMS_FINANCE_CONTEXT: '/gm2-finance-rest/rest',
+  DETAIL_FRONT: '/gm2-detail-front',
+  LIST_FRONT: '/gm2-list-front',
+  CRM_FRONT: '/gm2-crm-front',
+  FMS_MEMBERSHIP_CONTEXT: '/gm2-fmsmembership/rest',
+  MAINS_SERVICE: '/gm2-mains-service-rest',
+  ORG_BASE_CONTEXT: '/dzg-orgbase-rest/',
+  PINYIN_CONTEXT: '/gm2-pinyin-search-rest',
+  FMS_PORTAL_CONTEXT: '/gm2-fms-portal-server/legacy',
+  FMS_AIR_PORTAL_CONTEXT: '/gm2-fms-portal-server/air',
+  FMS_PORTAL_ENTRUST_CONTEXT: '/gm2-fms-portal-server/entrust',
+};

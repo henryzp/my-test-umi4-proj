@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="renderer" content="webkit">
+  <meta HTTP-EQUIV="Pragma" CONTENT="no-cache">
+  <meta HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+  <meta HTTP-EQUIV="Expires" CONTENT="0">
+  <script src="https://hd-image-public.oss-cn-hangzhou.aliyuncs.com/sensors/gm2Sensors.js"></script>
+  <script src="/static/common/jquery-1.9.1.min.js"></script>
+  <script src="/static/common/OPS_SDK_1.0.2.min.js"></script>
+  <script>
+    var global = window;
+    var process = {
+      env: <%- JSON.stringify(env) %>,
+    }
+    var require = function(){}
+    function ga() {}
+    var rootId = "<%=env.rootId %>"
+  </script>
+  <style>
+    .ant-v4-form-horizontal .ant-v4-form-item-control {
+        flex: 1 1 !important;
+    }
+    .anticon_v2::before {
+      display: block !important;
+    }
+  </style>
+  <link rel="stylesheet" href="https://stop-all-service.oss-cn-hangzhou.aliyuncs.com/dzg-common-component/logistic-map/tailwind.min.css">
+  <script src="https://fe-material.oss-cn-hangzhou.aliyuncs.com/gm2-detail-front/locale/en.js"></script>
+</head>
+<body>
+  <div id="<%=env.rootId %>">
+  </div>
+  <script type="module" src="/src/umi.ts"></script>
+  <script src="/scripts/helper.ts"></script>
+
+</body>
+</html>

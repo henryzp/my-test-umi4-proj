@@ -1,0 +1,3 @@
+export default {
+  VGM_CONTAINER_REFRESH: 'VGM_CONTAINER_REFRESH',
+};

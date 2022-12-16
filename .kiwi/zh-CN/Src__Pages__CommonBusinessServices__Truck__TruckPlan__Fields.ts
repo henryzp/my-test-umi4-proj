@@ -1,0 +1,30 @@
+export default {
+  Fields: {
+    boxSealNo: '箱封号发送邮箱',
+    pleaseEnterAPositive: '请输入正确的邮箱格式',
+  },
+  BkgNo: {
+    cancel: '取消',
+    confirmAndCreate: '确认并创建',
+    choice: '选择BKG',
+    open: '展开',
+    putItAway: '收起',
+    newlyAdded: '+新增',
+    modify: '修改',
+    operationSuccessful: '操作成功',
+  },
+  NewSoFile: {
+    filingTime: '归档时间',
+    filer: '归档人',
+    sourceOfDocuments: '文件来源',
+    fileSize: '文件大小',
+    fileName: '文件名称',
+    serialNumber: '序号',
+    confirmUpload: '确认上传',
+    pleaseSelectAText: '请选择文件',
+    pleaseSelect: '请选择',
+    bookingConfirmation: '订舱确认单',
+    operationSuccessful: '操作成功',
+    noBookingConfirmation: '无订舱确认单类型文件',
+  },
+};

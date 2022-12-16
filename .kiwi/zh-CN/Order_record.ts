@@ -1,0 +1,41 @@
+export default {
+  AnchorTabs: {
+    otherInformation: '其他信息',
+  },
+  AssociatedOrderList: {
+    associatedOrder: '关联订单',
+    toBeAssociated: '待关联子订单列表',
+    associationSuccessful: '关联成功',
+    operationFailed: '操作失败，子订单不能超过100条',
+    reasonsForFailure: '失败原因',
+    strip: '条',
+    articleFailed: '条 失败',
+    operationResults: '操作结果：成功',
+    bulkSeparation: '批量脱离完成',
+    batchMaintenance: '批量维护',
+    outOfOrder: '脱离订单',
+    orderSeparation: '订单脱离成功',
+    orderQuantity: '订单批量脱离成功',
+    atLeastChoose: '至少选择一票子单',
+    associatedOrder2: '关联订单列表',
+    son: '子',
+    warningGeneral: '警告，总体积超过上限',
+    warningGeneral2: '警告，总毛重超过上限',
+  },
+  OrgChooseModal: {
+    orderOwnership: '订单所属公司',
+  },
+  Api: {
+    chineseSymbols: '{val1}/order/delete？casenumbers={val2}',
+  },
+  RsModel: {
+    solicitationAgent: '揽货代理和揽货代理联系人必填',
+    solicitingAgent: '揽货代理必填',
+    servicesTo: '服务项至少选择一个！',
+    porServicesTo: 'POR服务项至少选择一个！',
+    theGoodsAreOverweight: '货物超重,请注意',
+    delegationRemarks: '委托备注最长为2000个字符',
+    heapFreeDays: '免堆天数',
+    freeDays: '免用天数',
+  },
+};

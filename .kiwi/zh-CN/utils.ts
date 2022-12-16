@@ -1,0 +1,60 @@
+export default {
+  CharacterValidateHelper: {
+    pleaseInputEnglish: '请输入英文或半角字符',
+    illegalExistence: '存在非法字符：{val1}',
+  },
+  CommonMessages: {
+    saveFailed:
+      '保存失败，该订单货物为危险品，请在危险品右侧点击查看，在弹窗中维护【UN CODE】、【级别】',
+    noEarlierThan: 'DEL ETA 不得早于操作详情的ETD',
+    expectedSailing: '预计开航时间不可晚于DEL ETA',
+    noEarlierThan2: 'DEL ETA 不得早于ETD',
+  },
+  CopyHelper: {
+    copiedTo: '已复制到剪贴板',
+  },
+  SpecialGoodsModalValidate: {
+    saveFailed:
+      '保存失败，该订单货物为特殊货物，请在货物性质右侧点击查看，在弹窗中维护',
+    high: '高',
+    wide: '宽',
+    long: '长',
+    netWeight: '净重',
+  },
+  ValueHelper: {
+    itsSensitive: '属于敏感品名，请及时确认是否为危险品',
+    chineseSymbols: '；',
+    thereIsSensitivity: '存在敏感品名',
+    in: '【{val1}】中的【{val2}】',
+    in2: '【{val1}】中的【{val2}】',
+    fireworks: '烟花',
+    lithiumMetalStorageBattery: '锂金属蓄电池',
+    dithionite: '连二亚硫酸钠',
+    dichloroisocyanide: '二氯异氰尿酸',
+    trichloroisocyanogen: '三氯异氰尿酸',
+    calciumHypochlorite: '次氯酸钙',
+    machineMadeCarbon: '机制炭',
+    hookahCharcoal: '水烟炭',
+    bambooCharcoal: '竹炭',
+    coconutShellCharcoal: '椰壳炭',
+    barbecueCharcoal: '烧烤炭',
+    juteRootCharcoal: '黄麻根炭',
+    activeCarbon: '活性碳',
+    carbonBlack: '炭黑',
+    lithiumIonBattery: '锂离子蓄电池',
+    lithiumBattery: '锂蓄电池',
+    lithiumMetalElectricity: '锂金属电池',
+    lithiumIonBattery2: '锂离子电池',
+    lithiumBattery2: '锂电池',
+    charcoal: '木炭',
+  },
+  WindowHelper: {
+    thePageWillBeDisplayedIn: '页面将在2秒之后关闭或跳转！',
+  },
+  ConfirmModalUtils: {
+    determine: '确定',
+    cancel: '取消',
+    thisBusinessHas: '该业务有相关服务项需求但无相关资费项录入,请确认是否正确?',
+    informationTips: '信息提示',
+  },
+};

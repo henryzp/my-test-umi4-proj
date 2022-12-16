@@ -1,0 +1,25 @@
+export default {
+  Columns: {
+    rateTemplate: '费率模板选择费用明细列表',
+    termOfValidity: '有效期',
+    remark: '资费说明',
+    route: '航线',
+    type: '类型',
+    taxRate: '税率',
+    invoice: '发票',
+    unitPriceYesNo: '单价是否含税',
+    goods: '货类',
+    advancePayment: 'MBL预到付',
+    expenseItem: '费用项',
+    settlementRole: '结算角色',
+  },
+  Index: {
+    costPlan: '费用方案明细列表',
+    costPlan2: '费用方案列表',
+    confirmAndClose: '确定并关闭',
+    to: '{val1} 至 {val2}',
+    copeWith: '应付',
+    schemeName: '方案名称',
+    ofPer: '共{val1}条，每页{val2}条',
+  },
+};

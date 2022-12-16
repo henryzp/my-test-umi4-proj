@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="renderer" content="webkit">
+  <META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+  <META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+  <META HTTP-EQUIV="Expires" CONTENT="0">
+  <script src="https://hd-image-public.oss-cn-hangzhou.aliyuncs.com/sensors/gm2Sensors.js"></script>
+  <!-- <script src="https://stop-all-service.oss-cn-hangzhou.aliyuncs.com/dzg-common-component/logistic-map/logistic-map.umd.js?_=1636080702144"></script> -->
+  <% if (context.env === 'production') { %>
+    <script type="text/javascript">
+      if (window.location.protocol === 'http:') {
+      	window.location.href = window.location.href.replace('http://', 'https://');
+      }
+    </script>
+  <% }%>
+  <link rel="stylesheet" href="https://stop-all-service.oss-cn-hangzhou.aliyuncs.com/dzg-common-component/logistic-map/tailwind.min.css">
+  <script src="https://fe-material.oss-cn-hangzhou.aliyuncs.com/locale/gm2-detail-front/en-US.js"></script>
+  <script src="https://fe-material.oss-cn-hangzhou.aliyuncs.com/locale/component-library/en-US.js"></script>
+  <script src="./common/jquery-1.9.1.min.js"></script>
+  <script src="./common/OPS_SDK_1.0.2.min.js"></script>
+</head>
+<body>
+  <div id="gm2-detail-front">
+  </div>
+  <script>
+    function ga() {}
+  </script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+export default {
+  Operate_record: {
+    releaseTime: '放行时间',
+    inspectionTime: '查验时间',
+    taxPaymentTime: '交税时间',
+    taxTime: '出税时间',
+    customsDeclarationAndReceipt: '报关接单时间',
+    salesInsuranceCompleted: '销保完成时间',
+    salesInsuranceDeadline: '销保截止时间',
+    pickUpTime: '提箱时间',
+    orderReplenishment: '订单补料组件',
+    orderReplenishment2: '订单补料',
+    shippingDateInformation: '船期信息3空',
+    essentialInformation: '基本信息表单组件',
+    deliveryLocation: '送货地点',
+  },
+  Order_record: {
+    chineseSymbols: '{val1}/order/delete？casenumbers={val2}',
+    pleaseChooseABoat: '请选择船公司',
+    bookingInformation: '订舱信息-左边内容',
+    customerDemand: '客户需求-备注',
+    customerDemand2: '客户需求-委托备注',
+    pickUpInformation: '提货信息 ',
+    customerDemand3: '客户需求-提单方式',
+    customerDemand4: '客户需求-港口信息',
+    chineseSymbols2: '{val1}/order/delete？casenumbers={val2}',
+  },
+};

@@ -1,0 +1,7 @@
+ga.js
+analytics.js
+**/*.js
+**/*.jsx
+src/service/*
+__test__
+**/*.test.tsx

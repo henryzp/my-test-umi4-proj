@@ -1,0 +1,26 @@
+export default {
+  Constants: {
+    onePass: '一关通',
+    domesticTransfer: '国内中转',
+    internationalTransfer: '国际中转',
+  },
+  Index: {
+    publicInformation: '公共信息',
+    loading: '加载中...',
+    expectedCustomsDeclaration: '预计报关日期',
+    expectedInspection: '预计报检日期',
+    bargeClosure: '驳船截关时间',
+    bargeTransfer: '驳船中转方式',
+    totalVolume: '总体积',
+    totalWeight: '总重量',
+    total: '总件数',
+    openingTime: '开港时间',
+    portArea: '港区',
+    portOfDischarge: '卸货港',
+    customerReference: '客户参考号',
+    number: 'MB/L号',
+    chineseSymbols: '，',
+    loadingFailed: '加载失败，请稍候重试！',
+    publicInformation2: '公共信息加载失败，请稍候重试！',
+  },
+};
